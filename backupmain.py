@@ -6,8 +6,8 @@ from flask_cors import CORS
 app = Flask(__name__)
 CORS(app)
 from ai21 import AI21Client
-gmaps = googlemaps.Client(key = "AIzaSyBB5c6Y6hGQAJJzAEvCaKBsoakc1ggTURE")
-key = "JAqZcINSWJSAIk3AkrfGQPZpuaPU0O7E"
+gmaps = googlemaps.Client(key = "SUPER_SECRET_KEY")
+key = "SUPER_SECRET_KEY2"
 client = AI21Client(api_key=key)
 location = ''
 chat = ''
